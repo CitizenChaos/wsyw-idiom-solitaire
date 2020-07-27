@@ -1,24 +1,5 @@
-# idiom-solitaire
+# “为所欲为”成语接龙生成器
 
-## Project setup
-```
-npm install
-```
+输入任意成语，就可以自动进行成语接龙，直到最后一个成语是“为所欲为”为止。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[传送门](http://baozai.fun:10031/wsyw/#/)
