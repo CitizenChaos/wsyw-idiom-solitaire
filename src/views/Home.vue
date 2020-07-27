@@ -48,11 +48,11 @@ export default {
       this.$refs.form.validate(valid => {
         if (valid) {
           this.resultArr = []
-          this.mainFn(this.getLastWordSpell(this.form.idiom))
+          this.generator(this.getLastWordSpell(this.form.idiom))
         }
       })
     },
-    mainFn(lastWordSpell) {
+    generator(lastWordSpell) {
       const tempResArr = cnchar.idiom(lastWordSpell, 'spell')
       if (!tempResArr.length) {
         this.$message({
@@ -74,7 +74,7 @@ export default {
       } else {
         const randomNum = this.getRandomNum(0, tempResArr.length)
         this.resultArr.push(tempResArr[randomNum])
-        this.mainFn(this.getLastWordSpell(tempResArr[randomNum]))
+        this.generator(this.getLastWordSpell(tempResArr[randomNum]))
       }
     },
     getLastWordSpell(s) {
