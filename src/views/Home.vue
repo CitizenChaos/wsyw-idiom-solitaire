@@ -21,10 +21,10 @@ export default {
   data() {
     const validateIdiom = (rule, value, callback) => {
       if (value === '') {
-        callback(new Error('请输入成域'))
+        callback(new Error('请输入成语'))
       } else {
         if (!/[\u4e00-\u9fa5]+/.test(this.form.idiom)) {
-          callback(new Error('成域含有非汉字'))
+          callback(new Error('成语含有非汉字'))
         }
         callback()
       }
