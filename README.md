@@ -2,4 +2,4 @@
 
 输入任意成语，就可以自动进行成语接龙，直到最后一个成语是“为所欲为”为止。
 
-[传送门](http://baozai.fun:10031/wsyw/#/)
+[传送门](https://blog.csdn.net/weixin_44717473/article/details/107762681)
